@@ -41,3 +41,7 @@ Le fichier d'entrée contient des positions `X,Y,Z` de boîtes de jonction. On r
 ## Day 9
 
 Le fichier d'entrée contient une liste ordonnée de coordonnées `x,y` de tuiles rouges formant une boucle. Chaque tuile rouge est connectée à la précédente et à la suivante (et la liste « wrap ») par une ligne orthogonale de tuiles vertes ; toutes les tuiles à l'intérieur de la boucle sont aussi vertes. On cherche un rectangle dont deux coins opposés sont des tuiles rouges et dont toutes les tuiles couvertes sont rouges ou vertes ; le programme affiche la plus grande aire possible (en nombre de cases, bords inclus).
+
+## Day 10
+
+Le fichier d'entrée contient une machine par ligne : un motif dans `[...]` (ignoré), une liste de boutons dans `(...)` (chaque bouton incrémente de 1 certains compteurs), puis des objectifs de tension dans `{...}`. Les compteurs démarrent à 0 et l'on cherche le nombre minimal total d'appuis de boutons pour atteindre exactement les objectifs ; le programme affiche la somme de ces minima.
