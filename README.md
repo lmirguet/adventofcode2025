@@ -49,3 +49,7 @@ Le fichier d'entrée contient une machine par ligne : un motif dans `[...]` (ig
 ## Day 11
 
 Le fichier d'entrée décrit un graphe orienté de serveurs sous la forme `device: out1 out2 ...`. Les données démarrent sur `svr` et s'arrêtent quand elles atteignent `out`. Le programme calcule le nombre total de chemins distincts de `svr` à `out` qui visitent aussi `dac` et `fft`.
+
+## Day 12
+
+Le fichier d'entrée contient d'abord des formes de cadeaux (`#`/`.`) indexées, puis une liste de régions `WxH: ...` indiquant combien de cadeaux de chaque forme doivent tenir dans un rectangle `W×H`. Les formes peuvent être tournées/retournées et ne doivent pas se chevaucher. Le programme affiche combien de régions peuvent contenir tous leurs cadeaux.
