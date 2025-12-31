@@ -45,3 +45,7 @@ Le fichier d'entrée contient une liste ordonnée de coordonnées `x,y` de tuile
 ## Day 10
 
 Le fichier d'entrée contient une machine par ligne : un motif dans `[...]` (ignoré), une liste de boutons dans `(...)` (chaque bouton incrémente de 1 certains compteurs), puis des objectifs de tension dans `{...}`. Les compteurs démarrent à 0 et l'on cherche le nombre minimal total d'appuis de boutons pour atteindre exactement les objectifs ; le programme affiche la somme de ces minima.
+
+## Day 11
+
+Le fichier d'entrée décrit un graphe orienté de serveurs sous la forme `device: out1 out2 ...`. Les données démarrent sur `svr` et s'arrêtent quand elles atteignent `out`. Le programme calcule le nombre total de chemins distincts de `svr` à `out` qui visitent aussi `dac` et `fft`.
